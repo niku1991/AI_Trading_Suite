@@ -1,0 +1,87 @@
+# ALE AI Trading System - Complete Dependencies
+# Core requirements for AI-powered trading with autotrading, backtesting, and training
+
+# Web Framework
+Flask>=2.3.0
+Werkzeug>=2.3.0
+
+# HTTP Requests
+requests>=2.31.0
+urllib3>=2.0.0
+
+# Data Processing & Analysis
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.11.0
+
+# Machine Learning & AI
+scikit-learn>=1.3.0
+tensorflow>=2.13.0
+torch>=2.0.0
+transformers>=4.30.0
+
+# Technical Analysis
+ta-lib>=0.4.0
+yfinance>=0.2.0
+
+# Cryptography & Security
+cryptography>=41.0.0
+PyJWT>=2.8.0
+bcrypt>=4.0.0
+
+# Date & Time
+python-dateutil>=2.8.0
+pytz>=2023.3
+
+# Environment Management
+python-dotenv>=1.0.0
+
+# Logging & Monitoring
+colorlog>=6.7.0
+psutil>=5.9.0
+
+# Database
+# sqlite3  # Built into Python (no need to install)
+pymongo>=4.4.0  # For MongoDB support
+
+# Charting & Visualization
+plotly>=5.15.0
+dash>=2.11.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# WebSocket Support (for real-time data)
+websocket-client>=1.6.0
+websockets>=11.0.0
+
+# Async Support
+aiohttp>=3.8.0
+asyncio-mqtt>=0.11.0
+
+# Data Storage & Serialization
+h5py>=3.8.0
+# pickle5>=0.0.12  # Not needed for Python 3.13+ (built-in pickle is sufficient)
+
+# Performance & Optimization
+numba>=0.57.0
+cython>=3.0.0
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+
+# Development Tools
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.5.0
+
+# Note: Some packages may require system dependencies
+# On Windows, most packages install directly with pip
+# On Linux/Mac, you may need to install system libraries first
+# 
+# For ta-lib on Windows:
+# pip install TA-Lib-binary
+# 
+# For ta-lib on Linux/Mac:
+# sudo apt-get install ta-lib  # Ubuntu/Debian
+# brew install ta-lib          # macOS
